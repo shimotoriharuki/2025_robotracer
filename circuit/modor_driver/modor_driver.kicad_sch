@@ -4139,16 +4139,6 @@
 		(uuid "1a5fc1ea-1648-40b9-aad4-7ceaff8b1393")
 	)
 	(label "ENCODER_B"
-		(at 175.26 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "20551006-abb6-49d2-bc5e-8b1c23bb39b3")
-	)
-	(label "ENCODER_A"
 		(at 139.7 102.87 180)
 		(effects
 			(font
@@ -4156,10 +4146,20 @@
 			)
 			(justify right bottom)
 		)
+		(uuid "20551006-abb6-49d2-bc5e-8b1c23bb39b3")
+	)
+	(label "ENCODER_A"
+		(at 175.26 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
 		(uuid "2fc2834d-91d5-4db1-898b-e31c2df4f838")
 	)
 	(label "SPI_MOSI"
-		(at 78.74 59.69 0)
+		(at 78.74 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4169,7 +4169,7 @@
 		(uuid "3353b238-b416-4846-8864-9e47824f31f3")
 	)
 	(label "SWDIO"
-		(at 82.55 134.62 0)
+		(at 82.55 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4219,7 +4219,7 @@
 		(uuid "4e55f760-5660-494b-ba59-4aab4a417050")
 	)
 	(label "SPI_MOSI"
-		(at 78.74 99.06 0)
+		(at 78.74 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4269,7 +4269,7 @@
 		(uuid "7dd1a80d-010e-4293-947f-ea429ab09d88")
 	)
 	(label "SPI_MISO"
-		(at 78.74 101.6 0)
+		(at 78.74 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4279,7 +4279,7 @@
 		(uuid "8155846a-555f-4b46-81de-742614473e3a")
 	)
 	(label "UART_RX"
-		(at 82.55 160.02 0)
+		(at 82.55 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4329,7 +4329,7 @@
 		(uuid "9cad1b00-5610-421d-adc1-0a56e1d921f4")
 	)
 	(label "SPI_CS"
-		(at 78.74 96.52 0)
+		(at 78.74 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4369,7 +4369,7 @@
 		(uuid "af7e1f7b-d9c8-4ad2-b840-1cb1232c0a13")
 	)
 	(label "SWCLK"
-		(at 82.55 137.16 0)
+		(at 82.55 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4409,7 +4409,7 @@
 		(uuid "c32a2bb7-4ada-4bf1-a78e-2f4f333bf815")
 	)
 	(label "SPI_MISO"
-		(at 78.74 62.23 0)
+		(at 78.74 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4429,7 +4429,7 @@
 		(uuid "cd07bdb7-f4eb-4203-84fb-e131152246f3")
 	)
 	(label "SPI_CS"
-		(at 78.74 57.15 0)
+		(at 78.74 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4439,7 +4439,7 @@
 		(uuid "ce1e40ea-629b-4c74-a625-ade5e7ce1f35")
 	)
 	(label "UART_TX"
-		(at 82.55 162.56 0)
+		(at 82.55 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
