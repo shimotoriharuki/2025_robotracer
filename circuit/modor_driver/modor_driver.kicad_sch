@@ -4109,7 +4109,7 @@
 		(uuid "069caf0c-1a1a-4693-952c-7311370d7ebc")
 	)
 	(label "NRST"
-		(at 82.55 132.08 0)
+		(at 82.55 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4169,7 +4169,7 @@
 		(uuid "3353b238-b416-4846-8864-9e47824f31f3")
 	)
 	(label "SWDIO"
-		(at 82.55 137.16 0)
+		(at 82.55 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4279,7 +4279,7 @@
 		(uuid "8155846a-555f-4b46-81de-742614473e3a")
 	)
 	(label "UART_RX"
-		(at 82.55 162.56 0)
+		(at 82.55 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4329,7 +4329,7 @@
 		(uuid "9cad1b00-5610-421d-adc1-0a56e1d921f4")
 	)
 	(label "SPI_CS"
-		(at 78.74 101.6 0)
+		(at 78.74 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4379,7 +4379,7 @@
 		(uuid "b6e5be64-21bd-49b4-a659-8f3a6a794948")
 	)
 	(label "SPI_SCK"
-		(at 78.74 104.14 0)
+		(at 78.74 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4429,7 +4429,7 @@
 		(uuid "cd07bdb7-f4eb-4203-84fb-e131152246f3")
 	)
 	(label "SPI_CS"
-		(at 78.74 62.23 0)
+		(at 78.74 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4439,7 +4439,7 @@
 		(uuid "ce1e40ea-629b-4c74-a625-ade5e7ce1f35")
 	)
 	(label "UART_TX"
-		(at 82.55 160.02 0)
+		(at 82.55 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4469,7 +4469,7 @@
 		(uuid "f2cda377-8cb7-4c61-8f6a-76b795cb6092")
 	)
 	(label "SPI_SCK"
-		(at 78.74 64.77 0)
+		(at 78.74 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
