@@ -977,12 +977,6 @@
 		(uuid "213dedf2-5e75-4121-bfb0-070e6534a25a")
 	)
 	(junction
-		(at 166.37 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4575ac65-e315-413d-b87b-787263c684b7")
-	)
-	(junction
 		(at 123.19 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -995,18 +989,6 @@
 		(uuid "504e7638-234c-4f76-b518-dabff4344b86")
 	)
 	(junction
-		(at 166.37 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5fb19d15-8639-46f2-a153-35cb144d4fef")
-	)
-	(junction
-		(at 162.56 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c3eaf7f-bb8e-4614-9cdf-54db78c1285c")
-	)
-	(junction
 		(at 176.53 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1017,12 +999,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aced2968-a899-4a29-a4a3-665dc8a6c588")
-	)
-	(junction
-		(at 162.56 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2e5f186-cace-4f80-9b2d-d4c6a02d85de")
 	)
 	(junction
 		(at 158.75 91.44)
@@ -1088,16 +1064,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 77.47) (xy 166.37 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "122999b7-9e86-4028-be23-2554c1ea80fa")
-	)
-	(wire
-		(pts
 			(xy 170.18 80.01) (xy 180.34 80.01)
 		)
 		(stroke
@@ -1118,26 +1084,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 77.47) (xy 176.53 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "261c4fde-dd79-4328-a6f5-0a6ecfe13ac3")
-	)
-	(wire
-		(pts
-			(xy 162.56 93.98) (xy 170.18 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26e94fb9-1aa1-4651-a561-69262bb92c32")
-	)
-	(wire
-		(pts
 			(xy 129.54 88.9) (xy 123.19 88.9)
 		)
 		(stroke
@@ -1148,7 +1094,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 99.06) (xy 166.37 99.06)
+			(xy 129.54 99.06) (xy 175.26 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1198,16 +1144,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 99.06) (xy 175.26 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "699c5c53-00d5-435a-9a69-a02304fe37bc")
-	)
-	(wire
-		(pts
 			(xy 158.75 76.2) (xy 158.75 77.47)
 		)
 		(stroke
@@ -1215,16 +1151,6 @@
 			(type default)
 		)
 		(uuid "6a9339b7-b4e3-49be-ba88-7c961554483d")
-	)
-	(wire
-		(pts
-			(xy 162.56 77.47) (xy 162.56 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70ca518d-f3ba-42db-a4df-a181c50dee43")
 	)
 	(wire
 		(pts
@@ -1238,7 +1164,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 77.47) (xy 166.37 77.47)
+			(xy 158.75 77.47) (xy 176.53 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1275,16 +1201,6 @@
 			(type default)
 		)
 		(uuid "86a06801-9358-4fc7-9bd2-b44d1d91bf90")
-	)
-	(wire
-		(pts
-			(xy 162.56 85.09) (xy 162.56 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87b9f782-6a5b-4bf1-b709-79c656d1c587")
 	)
 	(wire
 		(pts
@@ -1358,17 +1274,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 85.09) (xy 166.37 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1e801fc-5739-4118-b411-054b2e1b210e")
-	)
-	(wire
-		(pts
-			(xy 149.86 93.98) (xy 162.56 93.98)
+			(xy 149.86 93.98) (xy 170.18 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1395,16 +1301,6 @@
 			(type default)
 		)
 		(uuid "e7173856-8143-434c-904a-282d756074c3")
-	)
-	(wire
-		(pts
-			(xy 158.75 77.47) (xy 162.56 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb9a1bb9-a4e5-421c-8491-5c26244a5766")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -1689,16 +1585,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 185.42 80.01 0)
+		(at 185.42 82.55 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a0771503-6411-4573-97b1-31a5fac404dd")
 		(property "Reference" "J1"
-			(at 187.96 80.0099 0)
+			(at 187.96 82.5501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,7 +1603,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 187.96 82.5499 0)
+			(at 187.96 80.0101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,8 +1611,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 185.42 80.01 0)
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+			(at 185.42 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,7 +1621,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 80.01 0)
+			(at 185.42 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1734,7 +1630,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 185.42 80.01 0)
+			(at 185.42 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,75 +1730,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 162.56 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b0e18867-3f20-4349-a245-7acb64d12a1a")
-		(property "Reference" "R2"
-			(at 160.02 81.2799 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 160.02 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 162.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 162.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2d3c5092-ec31-4c31-be34-62c8ce84ad37")
-		)
-		(pin "1"
-			(uuid "7478245d-8a91-408e-ba6d-9fa1f7d6c42c")
-		)
-		(instances
-			(project "encoder_circuit"
-				(path "/aabd1186-91bd-4680-8e40-cc7becbde16c"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 158.75 76.2 0)
 		(unit 1)
@@ -1963,75 +1790,6 @@
 			(project "encoder_circuit"
 				(path "/aabd1186-91bd-4680-8e40-cc7becbde16c"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 166.37 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d415d368-752d-4e48-8b2b-a41bc7b08616")
-		(property "Reference" "R3"
-			(at 163.83 81.2799 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 163.83 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 166.37 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 166.37 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9c9be659-1b72-474d-be20-ea40195abb85")
-		)
-		(pin "1"
-			(uuid "49b0feaa-9705-424c-87e4-9b96d9b12ba6")
-		)
-		(instances
-			(project "encoder_circuit"
-				(path "/aabd1186-91bd-4680-8e40-cc7becbde16c"
-					(reference "R3")
 					(unit 1)
 				)
 			)
