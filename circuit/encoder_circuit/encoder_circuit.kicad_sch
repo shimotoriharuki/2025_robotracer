@@ -1602,7 +1602,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "PH"
 			(at 187.96 80.0101 0)
 			(effects
 				(font
