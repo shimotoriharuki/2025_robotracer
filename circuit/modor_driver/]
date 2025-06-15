@@ -1,0 +1,66 @@
+# メカ
+
+## ベルト
+![ベルト計算](fig/2025-05-06_ベルト計算.png)
+* S3M
+* 軸間距離：79.5mm
+* 計算ベルト長さ：234mm
+* 型番:60S3M234G
+
+## ギア
+* ピニオン
+    * GEAHB0.5-15-8-K-4
+    * モジュール: 0.5
+    * 穴径: 4mm
+    * 歯数: 15
+    * 素材：真鍮
+    * 歯幅：8mm
+* スパー
+    * 歯数：75
+    * モジュール0.5
+
+## タイヤ
+* タイヤ径：40mmくらい
+    * 多少前後してもいいが、あまり大きすぎるとトルクが足りないかもしれない
+
+関節を増速して脚がまっすぐ上げ下げできるようにしてみる。トルクが足りなくなることが考えられるが一旦作ってみる。
+トルクが足りなかったら、
+* 減速比をもっと稼ぐ
+* バッテリーを4sにする
+* モータを膝に配置する
+* モータを２個使う
+などの対策を取る
+
+    
+
+ # エレキ
+ 150deg 120s
+ 235deg 210
+ 
+ * モータドライバ用マイコン
+	 * [STM32C011F4P6](https://akizukidenshi.com/catalog/g/g118189/)
+	 * [ハードウェア開発ガイド](https://www.st.com/resource/en/application_note/an5673-getting-started-with-stm32c0-series-hardware-development-stmicroelectronics.pdf)
+* [水晶発振器](https://akizukidenshi.com/catalog/g/g111096/)
+* [書き込みコネクタ](https://ja.aliexpress.com/item/1005007893632702.html?spm=a2g0o.productlist.main.29.15bd482ctw7YgW&algo_pvid=752c35e4-d3f1-4b17-9c71-6cc9fcd5d97b&algo_exp_id=752c35e4-d3f1-4b17-9c71-6cc9fcd5d97b-28&pdp_ext_f=%7B%22order%22%3A%2235%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21JPY%21153%21132%21%21%217.49%216.44%21%40213ba8cc17493870456794059ef435%2112000042744999279%21sea%21JP%210%21ABX&curPageLogUid=TIrZr28Qkj4u&utparam-url=scene%3Asearch%7Cquery_from%3A)
+* [タクトスイッチ](https://akizukidenshi.com/catalog/g/g106185/)
+* [電解コンデンサ47u](https://akizukidenshi.com/catalog/g/g110270/)
+* [電解コンデンサ4/7u](https://akizukidenshi.com/catalog/g/g117895/)
+* [2mmピッチピンヘッダ](https://akizukidenshi.com/catalog/g/g118139/)
+* [ZH 6pin ヘッダ](https://akizukidenshi.com/catalog/g/g114159/)
+* [ZH 6pin ハウジング](https://akizukidenshi.com/catalog/g/g114153)
+* [ZH 4pin ヘッダ](https://akizukidenshi.com/catalog/g/g114157/)
+* [ZH 4pin ハウジング](https://akizukidenshi.com/catalog/g/g114153)
+* [ZH コンタクト](https://akizukidenshi.com/catalog/g/g114154)
+* [PH 4pin ヘッダ](https://akizukidenshi.com/catalog/g/g112804/)
+* [PH 4pin ハウジング](https://akizukidenshi.com/catalog/g/g112797/)
+* [PH コンタクト](https://akizukidenshi.com/catalog/g/g112809)
+* 
+* 
+
+# ソフト
+## SimpleFOC
+* STM関係
+	* [STM32 Family Pinout](https://docs.simplefoc.com/stm32pinouts/)
+	* [simplefoc/stm32pinouts](https://github.com/simplefoc/stm32pinouts)
+	* [stm32の例](https://github.com/ngalin/STM32_SimpleFOC/blob/main/nucleo144_H743/Core/Src/main.cpp)
+		* 結構中身変える感じになりそう
